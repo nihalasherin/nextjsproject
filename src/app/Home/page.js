@@ -639,18 +639,18 @@ function page() {
 
 
 
-<div style={{margin:'20px'}}>
+<div style={{ margin: '20px' }}>
   <h4>Explore Properties on Map</h4>
-  <Image 
-            src="/mappng.png" 
-            alt="Property Image"
-            width={500}
-            height={300}
-            layout="responsive"
-            priority
-            style={{ borderRadius: '8px' }} 
-          />
+  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4918.927069363705!2d75.83119323341032!3d11.247724518260886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bbe50ea0b7d%3A0xc4e01eaa6234847e!2sHiLITE%20Business%20Park%2C%20Poovangal%2C%20Pantheeramkavu%2C%20Kerala%20673014!5e0!3m2!1sen!2sin!4v1730732615745!5m2!1sen!2sin"
+    width="100%" 
+    height="300" 
+    style={{ border: 0, borderRadius: '8px' }} 
+    allowFullScreen 
+    loading="lazy"
+  ></iframe>
 </div>
+
 
 
 
