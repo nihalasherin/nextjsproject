@@ -1348,6 +1348,19 @@ function page() {
         </ul>
       </div>
     </div>
+    {/* <div className="col">
+      <div className="card-body">
+        <h5 className="mt-3" style={{ fontWeight: 'bold' }}>Popular Areas</h5>
+        <ul style={{ listStyleType: 'none', padding: '0px', margin: '0px' }}>
+          <li>Downtown</li>
+          <li>Dubai Hills Estate</li>
+          <li>Dubai Creek Harbor</li>
+          <li>DAMAC Hills</li>
+          <li>MBR City</li>
+          <li>JBR</li>
+        </ul>
+      </div>
+    </div> */}
     <div className="col">
       <div className="card-body">
         <h5 className="mt-3" style={{ fontWeight: 'bold' }}>Properties</h5>
